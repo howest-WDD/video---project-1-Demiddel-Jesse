@@ -197,3 +197,15 @@ body {
 		}
 	}
 }
+
+.btn-primary {
+	padding: 1rem;
+	border-radius: 0.5rem;
+	text-decoration: none;
+	background-color: $color-highlight-orange !important;
+	color: transparent;
+	transition: background-color 250ms;
+	&:hover {
+		background-color: $color-highlight-blue !important;
+	}
+}

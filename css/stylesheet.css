@@ -138,3 +138,15 @@ body {
   background: none;
   color: #fe5e06 !important;
 }
+
+.btn-primary {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  background-color: #fe5e06 !important;
+  color: transparent;
+  transition: background-color 250ms;
+}
+.btn-primary:hover {
+  background-color: #26adca !important;
+}
