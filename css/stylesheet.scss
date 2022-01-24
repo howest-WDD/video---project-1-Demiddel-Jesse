@@ -123,6 +123,28 @@ body {
 		max-width: 80% !important;
 	}
 }
+.c-contact {
+	&__reach {
+		&--item {
+			color: $color-highlight-orange;
+			text-decoration: none;
+			transition: color 500ms;
+			&:hover {
+				color: $color-highlight-blue;
+			}
+		}
+	}
+	&__location {
+		&--item {
+			color: $color-highlight-orange;
+		}
+	}
+	&__hours {
+		&--item {
+			color: $color-highlight-orange;
+		}
+	}
+}
 
 /*------------------------------------*\
 	#UTILITIES
@@ -139,5 +161,39 @@ body {
 
 	&:hover {
 		color: $color-highlight-blue !important;
+	}
+}
+
+.accordion {
+	&-item {
+		font-family: $font-body;
+		color: $color-highlight-orange !important;
+	}
+	&-body {
+		border: solid;
+		border-width: 1px;
+		border-color: $color-highlight-orange !important;
+	}
+	&-button {
+		color: $color-highlight-orange !important;
+		background: none;
+		border: solid;
+		border-width: 1px;
+		border-color: $color-highlight-orange;
+		&::after {
+			filter: invert(51%) sepia(95%) saturate(3005%) hue-rotate(352deg) brightness(95%) contrast(112%);
+		}
+		&:focus {
+			color: $color-highlight-orange;
+			background: none !important;
+			border: solid;
+			border-width: 1px;
+			border-color: $color-highlight-orange;
+			box-shadow: none !important;
+		}
+		&:not(.collapsed) {
+			background: none;
+			color: $color-highlight-orange !important;
+		}
 	}
 }

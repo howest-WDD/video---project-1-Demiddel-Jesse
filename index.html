@@ -144,47 +144,52 @@
 			</section>
 
 			<!-- Info/Contact -->
-			<section>
+			<section class="container">
 				<h1>Info</h1>
-				<!-- Info -->
-				<div>
-					<h2>Veelgestelde vragen</h2>
-					<!-- Q1 -->
-					<div>
-						<!-- question -->
-						<p>Moet de kledij gewassen zijn?</p>
-						<!-- Answer -->
-						<p>Wij aanvaarden geen kledij die niet gewassen is.</p>
+				<div class="row">
+					<!-- Info -->
+					<div class="col-6">
+						<h2>Veelgestelde vragen</h2>
+						<div class="accordion" id="accordionExample">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingOne">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Moet de kledij gewassen zijn?</button>
+								</h2>
+								<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+									<div class="accordion-body">Wij aanvaarden geen kledij die niet gewassen is.</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingTwo">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Naaien jullie patches op kleren?</button>
+								</h2>
+								<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+									<div class="accordion-body">Ja wij naaien patches op iedere soort kledij.</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<!-- Q2 -->
-					<div>
-						<!-- question -->
-						<p>Naaien jullie patches op kleren?</p>
-						<!-- Answer -->
-						<p>Ja wij naaien patches op iedere soort kledij.</p>
-					</div>
-				</div>
-
-				<!-- Contact -->
-				<div>
-					<!-- phone number -->
-					<div>
-						<h2>Contact:</h2>
-						<a href="#">0477 24 94 58</a>
-						<a href="#">facebook.com/BoetiekEls/</a>
-					</div>
-					<!-- location -->
-					<div>
-						<h2>Locatie:</h2>
-						<p>wijdhagestraat 7 Harelbeke</p>
-					</div>
-					<!-- opening hours -->
-					<div>
-						<h2>Openingsuren:</h2>
-						<p>
-							woensdag van 7u tot 18u <br />
-							andere dagen op afspraak
-						</p>
+					<!-- Contact -->
+					<div class="col-4 offset-1 c-contact">
+						<!-- phone number -->
+						<div class="c-contact__reach">
+							<h2>Contact:</h2>
+							<a href="#" class="c-contact__reach--item">0477 24 94 58</a> <br />
+							<a href="#" class="c-contact__reach--item">facebook.com/BoetiekEls/</a>
+						</div>
+						<!-- location -->
+						<div class="c-contact__location">
+							<h2>Locatie:</h2>
+							<p class="c-contact__location--item">wijdhagestraat 7 Harelbeke</p>
+						</div>
+						<!-- opening hours -->
+						<div class="c-contact__hours">
+							<h2>Openingsuren:</h2>
+							<p class="c-contact__hours--item">
+								woensdag van 7u tot 18u <br />
+								andere dagen op afspraak
+							</p>
+						</div>
 					</div>
 				</div>
 			</section>

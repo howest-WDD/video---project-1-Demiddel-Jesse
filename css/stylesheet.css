@@ -73,6 +73,25 @@ body {
   }
 }
 
+.c-img__store {
+  max-width: 80% !important;
+}
+
+.c-contact__reach--item {
+  color: #fe5e06;
+  text-decoration: none;
+  transition: color 500ms;
+}
+.c-contact__reach--item:hover {
+  color: #26adca;
+}
+.c-contact__location--item {
+  color: #fe5e06;
+}
+.c-contact__hours--item {
+  color: #fe5e06;
+}
+
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
@@ -86,4 +105,36 @@ body {
 }
 .nav-link:hover {
   color: #26adca !important;
+}
+
+.accordion-item {
+  font-family: "Lato", sans-serif;
+  color: #fe5e06 !important;
+}
+.accordion-body {
+  border: solid;
+  border-width: 1px;
+  border-color: #fe5e06 !important;
+}
+.accordion-button {
+  color: #fe5e06 !important;
+  background: none;
+  border: solid;
+  border-width: 1px;
+  border-color: #fe5e06;
+}
+.accordion-button::after {
+  filter: invert(51%) sepia(95%) saturate(3005%) hue-rotate(352deg) brightness(95%) contrast(112%);
+}
+.accordion-button:focus {
+  color: #fe5e06;
+  background: none !important;
+  border: solid;
+  border-width: 1px;
+  border-color: #fe5e06;
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background: none;
+  color: #fe5e06 !important;
 }
