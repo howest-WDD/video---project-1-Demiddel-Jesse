@@ -92,9 +92,46 @@ body {
   color: #fe5e06;
 }
 
+.c-carousel {
+  height: 500px;
+  color: #ffffff;
+}
+.c-carousel__1 {
+  background-image: url(../images/Carousel_1.jpg);
+  background-position: center;
+}
+.c-carousel__2 {
+  background-image: url(../images/Carousel_2.jpg);
+  background-position: center;
+}
+.c-carousel__3 {
+  background-image: url(../images/Carousel_3.jpg);
+  background-position: center;
+}
+.c-carousel__4 {
+  background-image: url(../images/Carousel_4.jpg);
+  background-position: center;
+}
+.c-carousel__text {
+  display: flex;
+  height: 500px;
+  align-content: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
+.u-link {
+  text-decoration: none !important;
+  color: #fe5e06 !important;
+  transition: color 500ms;
+}
+.u-link:hover {
+  color: #26adca !important;
+}
+
 /*------------------------------------*\
 	#BOOTSTRAP
 \*------------------------------------*/

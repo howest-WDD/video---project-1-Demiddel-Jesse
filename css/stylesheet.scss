@@ -146,9 +146,48 @@ body {
 	}
 }
 
+.c-carousel {
+	height: 500px;
+	color: $color-white;
+	&__1 {
+		background-image: url(../images/Carousel_1.jpg);
+		background-position: center;
+	}
+	&__2 {
+		background-image: url(../images/Carousel_2.jpg);
+		background-position: center;
+	}
+	&__3 {
+		background-image: url(../images/Carousel_3.jpg);
+		background-position: center;
+	}
+	&__4 {
+		background-image: url(../images/Carousel_4.jpg);
+		background-position: center;
+	}
+	&__text {
+		display: flex;
+		height: 500px;
+		align-content: center;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+}
+
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
+
+//to make specific links look like others
+.u-link {
+	text-decoration: none !important;
+	color: $color-highlight-orange !important;
+	transition: color 500ms;
+
+	&:hover {
+		color: $color-highlight-blue !important;
+	}
+}
 
 /*------------------------------------*\
 	#BOOTSTRAP
