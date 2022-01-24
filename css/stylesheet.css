@@ -45,3 +45,6 @@ body {
 /*------------------------------------*\
 	#BOOTSTRAP
 \*------------------------------------*/
+.nav-link {
+  text-decoration: none !important;
+}
