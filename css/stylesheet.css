@@ -73,6 +73,9 @@ body {
   }
 }
 
+.c-img {
+  border-radius: 2rem;
+}
 .c-img__store {
   max-width: 80% !important;
 }
@@ -118,6 +121,10 @@ body {
   align-content: center;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.c-loc {
+  color: #fe5e06;
 }
 
 /*------------------------------------*\

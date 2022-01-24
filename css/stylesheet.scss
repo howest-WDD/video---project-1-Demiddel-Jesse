@@ -119,6 +119,7 @@ body {
 }
 
 .c-img {
+	border-radius: 2rem;
 	&__store {
 		max-width: 80% !important;
 	}
@@ -172,6 +173,10 @@ body {
 		justify-content: flex-start;
 		flex-wrap: wrap;
 	}
+}
+
+.c-loc {
+	color: $color-highlight-orange;
 }
 
 /*------------------------------------*\
