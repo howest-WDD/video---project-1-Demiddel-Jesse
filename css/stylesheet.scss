@@ -95,7 +95,7 @@ body {
 	border-bottom: 1px rgba(0, 0, 0, 0.07) solid;
 	z-index: 99;
 	&.--not-top {
-	  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 	}
 }
 
@@ -115,6 +115,12 @@ body {
 	@include xl() {
 		width: auto;
 		height: 675px;
+	}
+}
+
+.c-img {
+	&__store {
+		max-width: 80% !important;
 	}
 }
 
