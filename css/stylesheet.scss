@@ -2,6 +2,35 @@
 	#SETTINGS
 \*------------------------------------*/
 
+// mixins
+// Small devices
+@mixin sm {
+	@media (min-width: 577px) {
+		@content;
+	}
+}
+
+// Medium devices
+@mixin md {
+	@media (min-width: 769px) {
+		@content;
+	}
+}
+
+// Large devices
+@mixin lg {
+	@media (min-width: 993px) {
+		@content;
+	}
+}
+
+// Extra large devices
+@mixin xl {
+	@media (min-width: 1201px) {
+		@content;
+	}
+}
+
 // importing fonts
 // lora font
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
@@ -59,6 +88,36 @@ body {
 	fill: url(#linear-gradient-2);
 }
 
+// navigation class
+.c-nav {
+	// to make it stick to the top and have a shadow border when it moves (Fixed header shadow)
+	background: #fff;
+	border-bottom: 1px rgba(0, 0, 0, 0.07) solid;
+	z-index: 99;
+	&.--not-top {
+	  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+	}
+}
+
+.c-mainvideo {
+	@include sm() {
+		width: auto;
+		height: 324px;
+	}
+	@include md() {
+		width: auto;
+		height: 432px;
+	}
+	@include lg() {
+		width: auto;
+		height: 556px;
+	}
+	@include xl() {
+		width: auto;
+		height: 675px;
+	}
+}
+
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
@@ -69,5 +128,10 @@ body {
 
 .nav-link {
 	text-decoration: none !important;
-	
+	color: $color-highlight-orange !important;
+	transition: color 500ms;
+
+	&:hover {
+		color: $color-highlight-blue !important;
+	}
 }

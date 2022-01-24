@@ -39,6 +39,40 @@ body {
   fill: url(#linear-gradient-2);
 }
 
+.c-nav {
+  background: #fff;
+  border-bottom: 1px rgba(0, 0, 0, 0.07) solid;
+  z-index: 99;
+}
+.c-nav.--not-top {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 577px) {
+  .c-mainvideo {
+    width: auto;
+    height: 324px;
+  }
+}
+@media (min-width: 769px) {
+  .c-mainvideo {
+    width: auto;
+    height: 432px;
+  }
+}
+@media (min-width: 993px) {
+  .c-mainvideo {
+    width: auto;
+    height: 556px;
+  }
+}
+@media (min-width: 1201px) {
+  .c-mainvideo {
+    width: auto;
+    height: 675px;
+  }
+}
+
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
@@ -47,4 +81,9 @@ body {
 \*------------------------------------*/
 .nav-link {
   text-decoration: none !important;
+  color: #fe5e06 !important;
+  transition: color 500ms;
+}
+.nav-link:hover {
+  color: #26adca !important;
 }
