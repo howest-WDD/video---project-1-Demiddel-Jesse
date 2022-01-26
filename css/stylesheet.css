@@ -218,3 +218,13 @@ body {
 .btn-primary:hover {
   background-color: #26adca !important;
 }
+
+.carousel-indicators button {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+  border-radius: 50%;
+  background-color: #26adca !important;
+}
+.carousel-indicators button:not(.active) {
+  filter: grayscale(100%);
+}
