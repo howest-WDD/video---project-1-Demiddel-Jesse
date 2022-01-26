@@ -179,6 +179,20 @@ body {
 	color: $color-highlight-orange;
 }
 
+.c-nieuwsbrief {
+	height: 400px;
+	color: white;
+	background-image: url(../images/nieuwsbrief_BG.jpg);
+	background-position: center;
+	&__txt {
+		display: flex;
+		height: 500px;
+		align-content: center;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+}
+
 /*------------------------------------*\
 	#UTILITIES
 \*------------------------------------*/
