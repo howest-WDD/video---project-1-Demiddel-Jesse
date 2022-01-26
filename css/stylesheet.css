@@ -122,6 +122,16 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
 }
+@media (min-width: 1601px) {
+  .c-carousel__text {
+    width: 440px !important;
+  }
+}
+@media (min-width: 1601px) {
+  .c-carousel__text--left {
+    margin-left: 0px !important;
+  }
+}
 
 .c-loc {
   color: #fe5e06;
