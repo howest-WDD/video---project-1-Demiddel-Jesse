@@ -164,6 +164,10 @@ body {
   background-color: #44c8f5 !important;
   margin: 0;
 }
+.c-footer__bottom--img {
+  width: auto;
+  height: 100px;
+}
 
 /*------------------------------------*\
 	#UTILITIES
