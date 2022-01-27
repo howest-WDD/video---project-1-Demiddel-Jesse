@@ -184,6 +184,10 @@ body {
 				margin-left: 0px !important;
 			}
 		}
+		h1 {
+			font-style: italic;
+			font-weight: 700;
+		}
 	}
 }
 
@@ -202,6 +206,11 @@ body {
 		align-content: center;
 		justify-content: flex-start;
 		flex-wrap: wrap;
+		p {
+			font-style: italic;
+			font-weight: 600;
+			font-size: 1.5rem;
+		}
 	}
 }
 
@@ -223,6 +232,16 @@ body {
 	&:hover {
 		color: $color-highlight-blue !important;
 	}
+}
+
+.u-header1 {
+	font-style: italic;
+	font-weight: 700;
+}
+
+.u-header2 {
+	font-style: italic;
+	font-weight: 500;
 }
 
 /*------------------------------------*\
@@ -248,6 +267,11 @@ body {
 		border: solid;
 		border-width: 1px;
 		border-color: $color-highlight-orange !important;
+	}
+	&-header {
+		button {
+			font-weight: 700;
+		}
 	}
 	&-button {
 		color: $color-highlight-orange !important;
@@ -280,6 +304,7 @@ body {
 	background-color: $color-highlight-orange !important;
 	color: transparent;
 	transition: background-color 250ms;
+	font-weight: 700;
 	&:hover {
 		background-color: $color-highlight-blue !important;
 	}
