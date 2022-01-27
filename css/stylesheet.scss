@@ -106,20 +106,18 @@ body {
 }
 
 .c-mainvideo {
+	width: auto;
+	min-height: 300px;
 	@include sm() {
-		width: auto;
 		height: 324px;
 	}
 	@include md() {
-		width: auto;
 		height: 432px;
 	}
 	@include lg() {
-		width: auto;
 		height: 556px;
 	}
 	@include xl() {
-		width: auto;
 		height: 675px;
 	}
 }

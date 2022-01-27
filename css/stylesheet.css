@@ -48,27 +48,27 @@ body {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 
+.c-mainvideo {
+  width: auto;
+  min-height: 300px;
+}
 @media (min-width: 577px) {
   .c-mainvideo {
-    width: auto;
     height: 324px;
   }
 }
 @media (min-width: 769px) {
   .c-mainvideo {
-    width: auto;
     height: 432px;
   }
 }
 @media (min-width: 993px) {
   .c-mainvideo {
-    width: auto;
     height: 556px;
   }
 }
 @media (min-width: 1201px) {
   .c-mainvideo {
-    width: auto;
     height: 675px;
   }
 }
