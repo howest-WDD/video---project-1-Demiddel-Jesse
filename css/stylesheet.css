@@ -159,7 +159,7 @@ body {
   font-weight: 600;
   font-size: 1.5rem;
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .c-nieuwsbrief__txt p {
     font-size: 1rem;
   }
