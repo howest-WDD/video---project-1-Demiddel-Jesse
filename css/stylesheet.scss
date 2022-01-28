@@ -98,27 +98,27 @@ body {
 .c-nav {
 	// to make it stick to the top and have a shadow border when it moves (Fixed header shadow)
 	background: #fff;
-	border-bottom: 1px rgba(0, 0, 0, 0.07) solid;
+	border-bottom: .0625rem rgba(0, 0, 0, 0.07) solid;
 	z-index: 99;
 	&.--not-top {
-		box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 1.875rem rgba(0, 0, 0, 0.1);
 	}
 }
 
 .c-mainvideo {
 	width: auto;
-	min-height: 300px;
+	min-height: 18.75rem;
 	@include sm() {
-		height: 324px;
+		height: 20.25rem;
 	}
 	@include md() {
-		height: 432px;
+		height: 27rem;
 	}
 	@include lg() {
-		height: 556px;
+		height: 34.75rem;
 	}
 	@include xl() {
-		height: 675px;
+		height: 42.1875rem;
 	}
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .c-carousel {
-	height: 500px;
+	height: 31.25rem;
 	color: $color-white;
 	&__1 {
 		background-image: url(../images/Carousel_1.jpg);
@@ -172,16 +172,16 @@ body {
 	}
 	&__text {
 		display: flex;
-		height: 500px;
+		height: 31.25rem;
 		align-content: center;
 		justify-content: flex-start;
 		flex-wrap: wrap;
 		@include xxl() {
-			width: 440px !important;
+			width: 27.5rem !important;
 		}
 		&--left {
 			@include xxl() {
-				margin-left: 0px !important;
+				margin-left: 0 !important;
 			}
 		}
 		h1 {
@@ -196,13 +196,13 @@ body {
 }
 
 .c-nieuwsbrief {
-	height: 400px;
+	height: 25rem;
 	color: white;
 	background-image: url(../images/nieuwsbrief_BG.jpg);
 	background-position: center;
 	&__txt {
 		display: flex;
-		height: 500px;
+		height: 31.25rem;
 		align-content: center;
 		justify-content: flex-start;
 		flex-wrap: wrap;
@@ -222,7 +222,7 @@ body {
 	margin: 0;
 	&--img {
 		width: auto;
-		height: 100px;
+		height: 6.25rem;
 	}
 }
 
@@ -272,7 +272,7 @@ body {
 	}
 	&-body {
 		border: solid;
-		border-width: 1px;
+		border-width: .0625rem;
 		border-color: $color-highlight-orange !important;
 	}
 	&-header {
@@ -284,7 +284,7 @@ body {
 		color: $color-highlight-orange !important;
 		background: none;
 		border: solid;
-		border-width: 1px;
+		border-width: .0625rem;
 		border-color: $color-highlight-orange;
 		&::after {
 			filter: invert(51%) sepia(95%) saturate(3005%) hue-rotate(352deg) brightness(95%) contrast(112%);
@@ -293,7 +293,7 @@ body {
 			color: $color-highlight-orange;
 			background: none !important;
 			border: solid;
-			border-width: 1px;
+			border-width: .0625rem;
 			border-color: $color-highlight-orange;
 			box-shadow: none !important;
 		}

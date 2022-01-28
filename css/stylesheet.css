@@ -41,35 +41,35 @@ body {
 
 .c-nav {
   background: #fff;
-  border-bottom: 1px rgba(0, 0, 0, 0.07) solid;
+  border-bottom: 0.0625rem rgba(0, 0, 0, 0.07) solid;
   z-index: 99;
 }
 .c-nav.--not-top {
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 1.875rem rgba(0, 0, 0, 0.1);
 }
 
 .c-mainvideo {
   width: auto;
-  min-height: 300px;
+  min-height: 18.75rem;
 }
 @media (min-width: 577px) {
   .c-mainvideo {
-    height: 324px;
+    height: 20.25rem;
   }
 }
 @media (min-width: 769px) {
   .c-mainvideo {
-    height: 432px;
+    height: 27rem;
   }
 }
 @media (min-width: 993px) {
   .c-mainvideo {
-    height: 556px;
+    height: 34.75rem;
   }
 }
 @media (min-width: 1201px) {
   .c-mainvideo {
-    height: 675px;
+    height: 42.1875rem;
   }
 }
 
@@ -96,7 +96,7 @@ body {
 }
 
 .c-carousel {
-  height: 500px;
+  height: 31.25rem;
   color: #ffffff;
 }
 .c-carousel__1 {
@@ -117,19 +117,19 @@ body {
 }
 .c-carousel__text {
   display: flex;
-  height: 500px;
+  height: 31.25rem;
   align-content: center;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 @media (min-width: 1601px) {
   .c-carousel__text {
-    width: 440px !important;
+    width: 27.5rem !important;
   }
 }
 @media (min-width: 1601px) {
   .c-carousel__text--left {
-    margin-left: 0px !important;
+    margin-left: 0 !important;
   }
 }
 .c-carousel__text h1 {
@@ -142,14 +142,14 @@ body {
 }
 
 .c-nieuwsbrief {
-  height: 400px;
+  height: 25rem;
   color: white;
   background-image: url(../images/nieuwsbrief_BG.jpg);
   background-position: center;
 }
 .c-nieuwsbrief__txt {
   display: flex;
-  height: 500px;
+  height: 31.25rem;
   align-content: center;
   justify-content: flex-start;
   flex-wrap: wrap;
@@ -171,7 +171,7 @@ body {
 }
 .c-footer__bottom--img {
   width: auto;
-  height: 100px;
+  height: 6.25rem;
 }
 
 /*------------------------------------*\
@@ -214,7 +214,7 @@ body {
 }
 .accordion-body {
   border: solid;
-  border-width: 1px;
+  border-width: 0.0625rem;
   border-color: #fe5e06 !important;
 }
 .accordion-header button {
@@ -224,7 +224,7 @@ body {
   color: #fe5e06 !important;
   background: none;
   border: solid;
-  border-width: 1px;
+  border-width: 0.0625rem;
   border-color: #fe5e06;
 }
 .accordion-button::after {
@@ -234,7 +234,7 @@ body {
   color: #fe5e06;
   background: none !important;
   border: solid;
-  border-width: 1px;
+  border-width: 0.0625rem;
   border-color: #fe5e06;
   box-shadow: none !important;
 }
