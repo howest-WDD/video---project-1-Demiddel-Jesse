@@ -98,7 +98,7 @@ body {
 .c-nav {
 	// to make it stick to the top and have a shadow border when it moves (Fixed header shadow)
 	background: #fff;
-	border-bottom: .0625rem rgba(0, 0, 0, 0.07) solid;
+	border-bottom: 0.0625rem rgba(0, 0, 0, 0.07) solid;
 	z-index: 99;
 	&.--not-top {
 		box-shadow: 0 0 1.875rem rgba(0, 0, 0, 0.1);
@@ -272,8 +272,9 @@ body {
 	}
 	&-body {
 		border: solid;
-		border-width: .0625rem;
-		border-color: $color-highlight-orange !important;
+		border-width: 0.0625rem;
+		border-color: transparent !important;
+		color: $color-black !important;
 	}
 	&-header {
 		button {
@@ -284,7 +285,7 @@ body {
 		color: $color-highlight-orange !important;
 		background: none;
 		border: solid;
-		border-width: .0625rem;
+		border-width: 0.0625rem;
 		border-color: $color-highlight-orange;
 		&::after {
 			filter: invert(51%) sepia(95%) saturate(3005%) hue-rotate(352deg) brightness(95%) contrast(112%);
@@ -293,7 +294,7 @@ body {
 			color: $color-highlight-orange;
 			background: none !important;
 			border: solid;
-			border-width: .0625rem;
+			border-width: 0.0625rem;
 			border-color: $color-highlight-orange;
 			box-shadow: none !important;
 		}

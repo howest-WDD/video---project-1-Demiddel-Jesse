@@ -215,7 +215,8 @@ body {
 .accordion-body {
   border: solid;
   border-width: 0.0625rem;
-  border-color: #fe5e06 !important;
+  border-color: transparent !important;
+  color: #000000 !important;
 }
 .accordion-header button {
   font-weight: 700;
