@@ -321,9 +321,10 @@ body {
 	height: 1.5rem !important;
 	width: 1.5rem !important;
 	border-radius: 50%;
-	background-color: $color-highlight-blue !important;
+	background-color: $color-highlight-orange !important;
 
 	&:not(.active) {
-		filter: grayscale(100%);
+		background-color: $color-highlight-blue !important;
+		//filter: grayscale(100%);
 	}
 }

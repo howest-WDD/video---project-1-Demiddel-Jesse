@@ -260,8 +260,8 @@ body {
   height: 1.5rem !important;
   width: 1.5rem !important;
   border-radius: 50%;
-  background-color: #26adca !important;
+  background-color: #fe5e06 !important;
 }
 .carousel-indicators button:not(.active) {
-  filter: grayscale(100%);
+  background-color: #26adca !important;
 }
